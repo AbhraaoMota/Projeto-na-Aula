@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Rubik+Bubbles&display=swap');
+
+
+
+body{
+    background-color: #1b1833;
+    font-family: Pacifico;
+
+}
+.Cabecalho{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px ;
+    font-family: Caveat;
+
+}
+.logo{
+    max-width: 100px;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.conheca_mais{
+    height:100vh;
+    background-image: url("https://images2.alphacoders.com/131/1318431.jpeg");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.informacao{
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    color: #1b1833;
+    margin-top: 17rem;
+    
+}
+.informacao h1{
+    font-size: 30px;
+
+}
+.informacao p{
+    font-size: 50px;
+    font-family: "rubik bubbles";
+}
+.informacao button{
+    background-color: #1b1833;
+    color:white;
+    font-family: caveat;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    
+}
+.informacao button:hover{
+    transform: scale(1.1);
+}
